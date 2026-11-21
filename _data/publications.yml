@@ -1,0 +1,304 @@
+main:
+- id: spa
+  rank: CAS 1
+  news: Our paper on segmentation-guided infrared and visible image fusion appeared online in [venue].
+  published: 2026-10
+  date_label: October 2026
+  title: 'SPA-Fuse: Segmentation priors-guided feature adaptive fusion for infrared and visible images'
+  authors: <strong>Zhen Wang</strong>, Xinyu Cui, Huanying Yue, Yiming Sun, Yongfeng Dong, Pengfei Zhu
+  conference_short: PR
+  venue: Pattern Recognition
+  conference: Pattern Recognition, online October 2026. Vol. 183, article 115225 (March 2027 issue).
+  url: https://doi.org/10.1016/j.patcog.2026.115225
+  bibtex: ./assets/bib/spa.bib
+  figure_caption: SPA-Fuse image fusion architecture.
+  image: ./assets/img/spa.png
+- id: ipfm
+  news: Our paper on learning from noisy labels through sample partitioning and feature mixing appeared in the MLIC 2026 proceedings.
+  published: '2026-09-17'
+  date_label: September 2026
+  title: Robust Learning with Noisy Labels via Instance Partition and Feature Mixing
+  authors: Taimin Guo, <strong>Zhen Wang</strong>, Guifang Wu, Yongfeng Dong
+  conference_short: MLIC
+  venue: International Conference on Machine Learning and Intelligent Computing
+  conference: International Conference on Machine Learning and Intelligent Computing, September 2026.
+  url: https://doi.org/10.1145/3829441.3829446
+  bibtex: ./assets/bib/ipfm.bib
+  image: ./assets/img/ipfm.png
+  figure_caption: IPFM framework, Figure 4.2 in Guifang Wu’s thesis.
+- id: uav
+  news: We posted our preprint on joint object detection and segmentation in aerial images on arXiv.
+  published: '2026-09-17'
+  date_label: September 2026
+  title: 'Socialized UAV Cross-Task Learning: Towards Cross-Granularity Collaboration through Hierarchical Interaction'
+  authors: Xinjie Yao, Ruipu Zhao, Yunqi Zhu, Zhihe Fan, Zhoupeng Guo, Weihao Li, <strong>Zhen Wang</strong>, Qilong Wang, Pengfei Zhu
+  conference_short: arXiv
+  venue: arXiv preprint
+  conference: arXiv preprint, September 2026.
+  url: https://arxiv.org/abs/2609.19867
+  bibtex: ./assets/bib/uav.bib
+  image: ./assets/img/uav.png
+  figure_caption: CGSC framework, Figure 5.
+  preprint: true
+  pdf: https://arxiv.org/pdf/2609.19867
+- id: air
+  news: We introduced a benchmark for air–ground collaboration in a new arXiv preprint.
+  published: '2026-06-17'
+  date_label: June 2026
+  title: 'Rethinking Air-Ground Collaboration: A Progressive Cross-Task Benchmark and Socialized Learning Framework'
+  authors: Zhoupeng Guo, Yunqi Zhu, Zhihe Fan, Xinjie Yao, Ruipu Zhao, Boan Tao, Yiming Sun, <strong>Zhen Wang</strong>, Pengfei Zhu
+  conference_short: arXiv
+  venue: arXiv preprint
+  conference: arXiv preprint, June 2026.
+  url: https://arxiv.org/abs/2606.18841
+  bibtex: ./assets/bib/air.bib
+  image: ./assets/img/air.png
+  figure_caption: Socialized Co-Perception framework, Figure 3.
+  preprint: true
+  pdf: https://arxiv.org/pdf/2606.18841
+  code: https://github.com/g1136639260-spec/AGSCP
+- id: iagm
+  news: Our paper on fusing visible and thermal features for object tracking appeared in the ACVRA 2026 proceedings.
+  published: '2026-05-28'
+  date_label: May 2026
+  title: 'IAGM: interaction and aggregation guided module for RGBT tracking'
+  authors: Yongfeng Dong, Xizhe Chen, Yingshuang Li, <strong>Zhen Wang</strong>
+  conference_short: ACVRA
+  venue: International Conference on Advances in Computer Vision Research and Applications (ACVRA 2026)
+  conference: International Conference on Advances in Computer Vision Research and Applications (ACVRA 2026), May 2026.
+  url: https://doi.org/10.1117/12.3115053
+  bibtex: ./assets/bib/iagm.bib
+- id: cfsg
+  rank: CCF A
+  news: Our paper on fine-grained recognition across domains appeared in the [venue] 2026 proceedings.
+  published: '2026-03-14'
+  date_label: March 2026
+  title: Fine-Grained Generalization via Structuralizing Concept and Feature Space into Commonality, Specificity and Confounding
+  authors: <strong>Zhen Wang</strong>, Jiaojiao Zhao, Qilong Wang, Yongfeng Dong, Wenlong Yu
+  conference_short: AAAI
+  venue: Proceedings of the AAAI Conference on Artificial Intelligence
+  conference: Proceedings of the AAAI Conference on Artificial Intelligence, March 2026.
+  url: https://doi.org/10.1609/aaai.v40i12.38010
+  bibtex: ./assets/bib/cfsg.bib
+  figure_caption: CFSG framework with coarse and fine branches.
+  image: ./assets/img/cfsg.png
+- id: ted
+  rank: CAS 1
+  news: Our paper on task-driven multimodal image fusion appeared in [venue].
+  published: 2026-01
+  date_label: January 2026
+  title: 'TEDFuse: Task-Driven Equivariant Consistency Decomposition Network for Multi-Modal Image Fusion'
+  authors: Yiming Sun, Xinyu Cui, <strong>Zhen Wang</strong>, Hao Cheng, Yongfeng Dong, Pengfei Zhu, Kai Li
+  conference_short: IEEE TMM
+  venue: IEEE Transactions on Multimedia
+  conference: IEEE Transactions on Multimedia, January 2026.
+  url: https://doi.org/10.1109/tmm.2026.3654417
+  bibtex: ./assets/bib/ted.bib
+  image: ./assets/img/ted.png
+  code: https://github.com/Claire-cxy/TEDFuse
+- id: dynamic
+  published: '2025-12-19'
+  date_label: December 2025
+  title: Reliable Learning with Noisy Labels in Re-ID via Dynamic Sample Selection
+  authors: <strong>Zhen Wang</strong>, Pengfei Li, Taimin Guo, Yongfeng Dong
+  conference_short: ICVRV
+  venue: International Conference on Virtual Reality and Visualization (ICVRV)
+  conference: International Conference on Virtual Reality and Visualization (ICVRV), December 2025.
+  url: https://doi.org/10.1109/icvrv67992.2025.00023
+  bibtex: ./assets/bib/dynamic.bib
+- id: nlfc
+  published: '2025-10-16'
+  date_label: October 2025
+  title: Noise-Robust Learning via Full Consistency
+  authors: <strong>Zhen Wang</strong>, Xueying Chang, Wenxin Zhao, Wenlong Yu, Xiaohui Lei, Yongfeng Dong
+  conference_short: ADMA
+  venue: International Conference on Advanced Data Mining and Applications
+  conference: International Conference on Advanced Data Mining and Applications, October 2025.
+  url: https://doi.org/10.1007/978-981-95-3453-1_19
+  bibtex: ./assets/bib/nlfc.bib
+- id: tl
+  published: '2025-09-12'
+  date_label: September 2025
+  title: Trustworthy Learning with Noisy Labels
+  authors: <strong>Zhen Wang</strong>, Pengfei Li, Wenyu Jia, Yongfeng Dong
+  conference_short: ICANN
+  venue: International Conference on Artificial Neural Networks
+  conference: International Conference on Artificial Neural Networks, September 2025.
+  url: https://doi.org/10.1007/978-3-032-04558-4_36
+  bibtex: ./assets/bib/tl.bib
+- id: cocf
+  published: '2025-06-30'
+  date_label: June 2025
+  title: 'CoCF: Consistent Selection and Flexible Masking for Learning with Noisy Labels'
+  authors: <strong>Zhen Wang</strong>, Shaoqian Tao, Wenxin Zhao, Yongfeng Dong
+  conference_short: IJCNN
+  venue: International Joint Conference on Neural Networks (IJCNN)
+  conference: International Joint Conference on Neural Networks (IJCNN), June 2025.
+  url: https://doi.org/10.1109/ijcnn64981.2025.11227346
+  bibtex: ./assets/bib/cocf.bib
+- id: crl
+  rank: CCF B
+  news: Our paper on contrastive re-calibration for learning with noisy labels appeared in the [venue] 2025 proceedings.
+  published: '2025-06-30'
+  date_label: June 2025
+  title: Training Robust DNNs with Noisy Labels via Contrastive Re-Calibration Learning
+  authors: Yongfeng Dong, Jiaji Wang, <strong>Zhen Wang</strong>, Guifang Wu, Hao Cheng
+  conference_short: ICME
+  venue: IEEE International Conference on Multimedia and Expo (ICME)
+  conference: IEEE International Conference on Multimedia and Expo (ICME), June 2025.
+  url: https://doi.org/10.1109/icme59968.2025.11209815
+  bibtex: ./assets/bib/crl.bib
+  image: ./assets/img/crl-figure.png
+  figure_caption: Figure 1. Training dynamics of cross-entropy and contrastive re-calibration on CIFAR-10.
+- id: cngc
+  rank: CCF B
+  news: Our paper on visible–infrared person re-identification with noisy labels appeared in the [venue] 2025 proceedings.
+  published: '2025-04-06'
+  date_label: April 2025
+  title: Learning with Coupled Noisy Labels for Visible-Infrared Person Re-identification via Graph Consistency
+  authors: <strong>Zhen Wang</strong>, Wenxin Zhao, Yongfeng Dong
+  conference_short: ICASSP
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing
+  conference: IEEE International Conference on Acoustics, Speech and Signal Processing, April 2025.
+  url: https://doi.org/10.1109/icassp49660.2025.10888795
+  bibtex: ./assets/bib/cngc.bib
+  image: ./assets/img/cngc.png
+- id: sldr
+  rank: CCF B
+  news: Our paper on dual regularization for learning with noisy labels appeared in the [venue] 2025 proceedings.
+  published: '2025-04-06'
+  date_label: April 2025
+  title: Sufficient Learning for Label Noise with Dual-Regularization
+  authors: Yongfeng Dong, Guifang Wu, Jiaji Wang, <strong>Zhen Wang</strong>
+  conference_short: ICASSP
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing
+  conference: IEEE International Conference on Acoustics, Speech and Signal Processing, April 2025.
+  url: https://doi.org/10.1109/icassp49660.2025.10889183
+  bibtex: ./assets/bib/sldr.bib
+  image: ./assets/img/sldr-figure.jpg
+  figure_caption: Figure 1. Sufficient learning with dual regularization.
+- id: history
+  published: 2024-12
+  date_label: December 2024
+  title: 'Co-history: learning with noisy labels by co-teaching with history losses'
+  authors: Yongfeng Dong, Jiawei Li, <strong>Zhen Wang</strong>, Wenyu Jia
+  conference_short: JIG
+  venue: Journal of Image and Graphics
+  conference: Journal of Image and Graphics, December 2024.
+  url: https://doi.org/10.11834/jig.230541
+  bibtex: ./assets/bib/history.bib
+  image: ./assets/img/history.jpg
+- id: prm
+  published: '2024-11-07'
+  date_label: November 2024
+  title: 'PRM: A Pixel-Region-Matching Approach for Fast Video Object Segmentation'
+  authors: <strong>Zhen Wang</strong>, Wenbin Zhang, Jiahao Li, Wencheng Zhu, Danqing Song
+  conference_short: PRCV
+  venue: Chinese Conference on Pattern Recognition and Computer Vision
+  conference: Chinese Conference on Pattern Recognition and Computer Vision, November 2024.
+  url: https://doi.org/10.1007/978-981-97-8505-6_6
+  bibtex: ./assets/bib/prm.bib
+  image: ./assets/img/prm.png
+- id: fpl
+  published: '2024-03-25'
+  date_label: March 2024
+  title: Learning Accurate Pseudo-Labels via Feature Similarity in the Presence of Label Noise
+  authors: Peng Wang, Xiaoxiao Wang, <strong>Zhen Wang</strong>, Yongfeng Dong
+  conference_short: Appl. Sci.
+  venue: Applied Sciences
+  conference: Applied Sciences, March 2024.
+  url: https://doi.org/10.3390/app14072759
+  bibtex: ./assets/bib/fpl.bib
+  image: ./assets/img/fpl.jpg
+- id: codc
+  published: '2024-02-03'
+  date_label: February 2024
+  title: 'CoDC: Accurate Learning with Noisy Labels via Disagreement and Consistency'
+  authors: Yongfeng Dong, Jiawei Li, <strong>Zhen Wang</strong>, Wenyu Jia
+  conference_short: Biomimetics
+  venue: Biomimetics
+  conference: Biomimetics, February 2024.
+  url: https://doi.org/10.3390/biomimetics9020092
+  bibtex: ./assets/bib/codc.bib
+  image: ./assets/img/codc.jpg
+- id: madd
+  published: 2024-01
+  date_label: January 2024
+  title: Attention Mechanism Based Joint Optimization Algorithm for Defect Detection
+  authors: Yongfeng Dong, Songyi Sun, <strong>Zhen Wang</strong>, Jing Liu
+  conference_short: JCAD&CG
+  venue: Journal of Computer-Aided Design & Computer Graphics
+  conference: Journal of Computer-Aided Design & Computer Graphics, January 2024.
+  url: https://doi.org/10.3724/sp.j.1089.2024.19785
+  bibtex: ./assets/bib/madd.bib
+  image: ./assets/img/madd.jpg
+- id: copl
+  published: '2023-11-05'
+  date_label: November 2023
+  title: Training Noise Robust Deep Neural Networks with Self-supervised Learning
+  authors: <strong>Zhen Wang</strong>, Shuo Jin, Jiapeng Du, Linhao Li, Yongfeng Dong
+  conference_short: ADMA
+  venue: International Conference on Advanced Data Mining and Applications
+  conference: International Conference on Advanced Data Mining and Applications, November 2023.
+  url: https://doi.org/10.1007/978-3-031-46674-8_21
+  bibtex: ./assets/bib/copl.bib
+  image: ./assets/img/copl.jpg
+- id: mpw
+  rank: CAS 1
+  published: '2023-01-16'
+  date_label: January 2023
+  title: Meta-Probability Weighting for Improving Reliability of DNNs to Label Noise
+  authors: <strong>Zhen Wang</strong>, Shuo Jin, Linhao Li, Yongfeng Dong, Qinghua Hu
+  conference_short: IEEE JBHI
+  venue: IEEE Journal of Biomedical and Health Informatics
+  conference: IEEE Journal of Biomedical and Health Informatics, January 2023.
+  url: https://doi.org/10.1109/jbhi.2023.3237033
+  bibtex: ./assets/bib/mpw.bib
+  image: ./assets/img/mpw.png
+- id: tii
+  published: '2020-07-14'
+  date_label: July 2020
+  title: Adaptive Nonconvex Sparsity Based Background Subtraction for Intelligent Video Surveillance
+  authors: Linhao Li, <strong>Zhen Wang</strong>, Qinghua Hu, Yongfeng Dong
+  conference_short: IEEE TII
+  venue: IEEE Transactions on Industrial Informatics
+  conference: IEEE Transactions on Industrial Informatics, July 2020.
+  url: https://doi.org/10.1109/tii.2020.3009111
+  bibtex: ./assets/bib/tii.bib
+  image: ./assets/img/tii.jpg
+- id: mlc
+  rank: CCF A
+  published: 2020-06
+  date_label: June 2020
+  title: Training Noise-Robust Deep Neural Networks via Meta-Learning
+  authors: <strong>Zhen Wang</strong>, Guosheng Hu, Qinghua Hu
+  conference_short: CVPR
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition, June 2020.
+  url: https://doi.org/10.1109/cvpr42600.2020.00458
+  bibtex: ./assets/bib/mlc.bib
+  pdf: https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Training_Noise-Robust_Deep_Neural_Networks_via_Meta-Learning_CVPR_2020_paper.pdf
+  image: ./assets/img/mlc.png
+  code: https://github.com/WangZhen-Hebut/Training-Noise-Robust-Deep-Neural-Networks-via-Meta-Learning
+- id: solar
+  published: '2018-12-05'
+  date_label: December 2018
+  title: Linear Multistep F10.7 Forecasting Based on Task Correlation and Heteroscedasticity
+  authors: <strong>Zhen Wang</strong>, Qinghua Hu, Qiuzhen Zhong, Yun Wang
+  conference_short: ESS
+  venue: Earth and Space Science
+  conference: Earth and Space Science, December 2018.
+  url: https://doi.org/10.1029/2018ea000393
+  bibtex: ./assets/bib/solar.bib
+  image: ./assets/img/solar.jpg
+- id: kp
+  published: '2018-04-21'
+  date_label: April 2018
+  title: Geomagnetic Index Kp Forecasting With LSTM
+  authors: Yao Tan, Qinghua Hu, <strong>Zhen Wang</strong>, Qiuzhen Zhong
+  conference_short: Space Weather
+  venue: Space Weather
+  conference: Space Weather, April 2018.
+  url: https://doi.org/10.1002/2017sw001764
+  bibtex: ./assets/bib/kp.bib
+  image: ./assets/img/kp.jpg

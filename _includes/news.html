@@ -1,0 +1,12 @@
+{% assign papers = site.data.publications.main | sort: "published" | reverse %}
+<ul>
+{% assign shown = 0 %}
+{% for paper in papers %}
+  {% unless site.homepage_ranks contains paper.rank %}{% continue %}{% endunless %}
+  {% assign month_year = paper.date_label | split: " " %}
+  {% capture venue %}<strong class="news-venue">{% if paper.rank == 'CCF A' or paper.rank == 'CCF B' %}{{ paper.conference_short | escape }}{% else %}{{ paper.venue | escape }}{% endif %}</strong>{% endcapture %}
+  <li><strong>[{{ month_year[0] | truncate: 3, "" }}{% unless month_year[0] == "May" %}.{% endunless %} {{ month_year[1] }}]</strong> {% if paper.news contains '[venue]' %}{{ paper.news | escape | replace: '[venue]', venue }}{% else %}Our paper “{{ paper.title | escape }}” appeared in {{ venue }}.{% endif %}</li>
+  {% assign shown = shown | plus: 1 %}
+  {% if shown == 6 %}{% break %}{% endif %}
+{% endfor %}
+</ul>
